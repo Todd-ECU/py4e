@@ -7,6 +7,7 @@ The function should return a value. Use 45 hours and a rate of 10.50 per hour to
 You should use input to read a string and float() to convert the string to a number. 
 Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly. 
 Do not name your variable sum or use the sum() function.
+
 '''
 
 def computepay(h,r):
