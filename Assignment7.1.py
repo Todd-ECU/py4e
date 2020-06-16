@@ -10,4 +10,5 @@ data at http://www.py4e.com/code3/words.txt
 # Use words.txt as the file name
 fname = input("Enter file name: ")
 fh = open(fname)
-print(len(fh))
+inp = (fh.read().upper().strip())
+print(inp)
