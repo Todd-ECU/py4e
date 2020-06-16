@@ -5,6 +5,9 @@ and print the contents of the file in upper case.
 Use the file words.txt to produce the output below.
 You can download the sample 
 data at http://www.py4e.com/code3/words.txt
+
+---   FROM MY WORK LAPTOP!!!! ----
+
 '''
 
 # Use words.txt as the file name
