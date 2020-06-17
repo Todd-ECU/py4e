@@ -10,3 +10,20 @@ Do not use the sum() function or a variable named sum in your solution.
 You can download the sample data 
 at http://www.py4e.com/code3/mbox-short.txt when you are testing below enter mbox-short.txt as the file name.
 '''
+# Use the file name mbox-short.txt as the file name
+from statistics import mean
+fname = input("Enter file name: ")
+fh = open(fname)
+count = 0
+for line in fh:
+    line = line.strip()
+    if not line.startswith("X-DSPAM-Confidence:"):
+        continue
+
+    count = count + 1
+    lastchar = (len(line))
+    pos = line.find(':')
+    num = (line[pos+1: lastchar])    
+    fnum = float(num)
+    inum = (fnum)
+    print(inum)
