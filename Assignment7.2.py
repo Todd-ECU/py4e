@@ -17,9 +17,9 @@ count = 0
 avg = 0
 for line in fh:
     if line.startswith("X-DSPAM-Confidence:"):
-        count += 1
+        count = count + 1
         lastchar = (len(line))
         pos = line.find(':')
         num = float((line[pos+1: lastchar]))
-        avg += num
+        avg = avg + num
 print("Average spam confidence:", avg/count)
