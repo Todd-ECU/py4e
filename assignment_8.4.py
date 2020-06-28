@@ -7,12 +7,12 @@ DESIRED OUTPUT
 
 fname = input("Enter file name: ")
 fh = open(fname)
-lst = list()
+words = []
 for line in fh:
    for word in line.split():
-      if word not in lst:
-          lst.append(word)
-          lst.sort()
-print(lst)
+      if word not in words:
+          words.append(word)
+          words.sort()
+print(words)
    
  
