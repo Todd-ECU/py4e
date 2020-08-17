@@ -10,7 +10,7 @@ for lin in hand:
         # idiom: retrieve/create/update counter
         di[w] = di.get(w,0) + 1
 
-#print(di)  
+print(di)  
 
-x = sorted(di.items())
-print(x[:10])
+x = sorted(di.keys())
+print(x)
