@@ -14,12 +14,11 @@ for lin in hand:
        
         di[lin]=di.get(lin,0) + 1
 
-    li = list()
+li = list()
 
-    for value,count in di.items():
+for value,count in di.items():
         li.append((value,count))
 
-    li.sort()
-    for value,count in li:
-        print (value,count)    
-        
+li.sort()
+for value,count in li:
+    print (value,count) 
